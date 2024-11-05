@@ -12,6 +12,8 @@ body{
     width: 200px;
     height: 100px;
     margin-bottom: 20px;
+    border: solid black 2px;
+    font-size: 30px;
 }
 
 .StopButton{
@@ -19,8 +21,13 @@ body{
     border-radius: 20px;
     width: 200px;
     height: 100px;
+    border: solid black 2px;
+    font-size: 30px;
 }
 
+h2{
+    margin-bottom: 30px;
+}
 
 h1{
     font-weight: bold;
@@ -31,6 +38,8 @@ h1{
     border-radius: 9px;
     margin: 2px 2px 2px 2px;
     border: solid skyblue 2px;
+    width: auto;
+    height: auto;
 
 }
 
@@ -42,4 +51,23 @@ h1{
 
 #invalidPW{
     color: red;
+}
+
+.profilepic{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 80px;
+    border-radius: 21px;
+    margin-top: 2px;
+}
+
+.profilename{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 5px;
 }
